@@ -5,8 +5,8 @@ command -v docker
 
 # Building
 #docker build -t mizux/ortools -f alpine.Dockerfile .
-#docker build -t mizux/ortools -f python.Dockerfile .
-docker build -t mizux/ortools -f centos.Dockerfile .
+docker build -t mizux/ortools -f python.Dockerfile .
+#docker build -t mizux/ortools -f centos.Dockerfile .
 
 # Inspecting
 docker image ls mizux/ortools
